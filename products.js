@@ -1,0 +1,171 @@
+// قائمة المنتجات - Products Array
+window.products = [
+  // المقبلات - Starters
+  {
+    id: 1,
+    name: "سلطة سيزر",
+    nameEn: "Caesar Salad",
+    category: "starters",
+    price: 8000,
+    description: "سلطة طازجة مع صوص سيزر الشهير",
+    image: "./public/anh-nguyen-kcA-c3f_3FE-unsplash.jpg",
+  },
+  {
+    id: 2,
+    name: "حساء الدجاج",
+    nameEn: "Chicken Soup",
+    category: "starters",
+    price: 6000,
+    description: "حساء دجاج ساخن مع الخضار",
+    image: "./public/kalindu-waranga-VtNLbOAeO68-unsplash.jpg",
+  },
+  {
+    id: 3,
+    name: "أجنحة الدجاج",
+    nameEn: "Chicken Wings",
+    category: "starters",
+    price: 10000,
+    description: "أجنحة دجاج مقرمشة مع الصوص",
+    image: "./public/karlo-king-WqylFQacnqE-unsplash.jpg",
+  },
+  {
+    id: 4,
+    name: "بطاطس مقلية",
+    nameEn: "French Fries",
+    category: "starters",
+    price: 5000,
+    description: "بطاطس مقرمشة مع الكاتشب",
+    image: "./public/durenne-loris-VzGdnv5URPI-unsplash.jpg",
+  },
+
+  // الأطباق الرئيسية - Main Courses
+  {
+    id: 5,
+    name: "برجر لحم فاخر",
+    nameEn: "Premium Beef Burger",
+    category: "main",
+    price: 15000,
+    description: "برجر لحم بقري مشوي مع الجبن والخضار",
+    image: "./public/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg",
+  },
+  {
+    id: 6,
+    name: "ستيك لحم",
+    nameEn: "Beef Steak",
+    category: "main",
+    price: 28000,
+    description: "ستيك لحم طري مع البطاطس المشوية",
+    image: "./public/victoria-shes-UC0HZdUitWY-unsplash.jpg",
+  },
+  {
+    id: 7,
+    name: "دجاج مشوي",
+    nameEn: "Grilled Chicken",
+    category: "main",
+    price: 18000,
+    description: "صدر دجاج مشوي مع الأرز",
+    image: "./public/sven-lippmann-hsoJOlqsBeU-unsplash.jpg",
+  },
+  {
+    id: 8,
+    name: "باستا بالكريمة",
+    nameEn: "Creamy Pasta",
+    category: "main",
+    price: 13000,
+    description: "باستا بصوص الكريمة الشهي",
+    image: "/creamy-pasta-alfredo.jpg",
+  },
+  {
+    id: 9,
+    name: "بيتزا مارغريتا",
+    nameEn: "Margherita Pizza",
+    category: "main",
+    price: 17000,
+    description: "بيتزا إيطالية بالجبن والطماطم",
+    image: "/margherita-pizza.png",
+  },
+  {
+    id: 10,
+    name: "سمك مشوي",
+    nameEn: "Grilled Fish",
+    category: "main",
+    price: 23000,
+    description: "سمك طازج مشوي مع الخضار",
+    image: "/grilled-fish-fillet.jpg",
+  },
+
+  // المشروبات - Drinks
+  {
+    id: 11,
+    name: "عصير برتقال",
+    nameEn: "Orange Juice",
+    category: "drinks",
+    price: 4000,
+    description: "عصير برتقال طازج",
+    image: "/fresh-orange-juice.png",
+  },
+  {
+    id: 12,
+    name: "موهيتو",
+    nameEn: "Mojito",
+    category: "drinks",
+    price: 6500,
+    description: "موهيتو منعش بالنعناع",
+    image: "/mojito-cocktail-mint.jpg",
+  },
+  {
+    id: 13,
+    name: "قهوة لاتيه",
+    nameEn: "Latte",
+    category: "drinks",
+    price: 5000,
+    description: "قهوة لاتيه ساخنة",
+    image: "/latte-coffee-cup.png",
+  },
+  {
+    id: 14,
+    name: "عصير مانجو",
+    nameEn: "Mango Juice",
+    category: "drinks",
+    price: 6000,
+    description: "عصير مانجو طبيعي",
+    image: "/mango-juice-fresh.jpg",
+  },
+  {
+    id: 15,
+    name: "مياه معدنية",
+    nameEn: "Mineral Water",
+    category: "drinks",
+    price: 1500,
+    description: "مياه معدنية باردة",
+    image: "/mineral-water-bottle.jpg",
+  },
+]
+
+// Reviews - آراء العملاء
+window.reviews = [
+  {
+    id: 1,
+    name: "أحمد محمد",
+    rating: 5,
+    comment: "تجربة رائعة! الطعام لذيذ والخدمة ممتازة. أنصح بشدة بزيارة هذا المطعم في بغداد.",
+    date: "منذ أسبوعين",
+  },
+  {
+    id: 2,
+    name: "سارة علي",
+    rating: 5,
+    comment: "أفضل برجر جربته في العراق! الأجواء مريحة والأسعار معقولة جداً.",
+    date: "منذ شهر",
+  },
+  {
+    id: 3,
+    name: "خالد عبدالله",
+    rating: 4,
+    comment: "مطعم رائع في الكرادة مع خيارات متنوعة. الستيك كان طريًا ولذيذًا جداً.",
+    date: "منذ 3 أسابيع",
+  },
+]
+
+
+  
